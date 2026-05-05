@@ -1,4 +1,4 @@
-const BASE_URL = "/api/products";
+const BASE_URL = `${import.meta.env.VITE_API_URL}/api/products`;
 
 // GET toate produsele
 export async function getAllProducts() {
